@@ -42,13 +42,36 @@ header img {
 
 .hamburger {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     margin: 40px;
     width: 500px;
     font-size: 1.5em;
-    text-align: center;
+    text-align: justify;
 }
+
+.hamburger p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.hero-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 2rem;
+    width: 800px;
+    height: 800px;
+    border-radius: 20px;
+    background-color: rgb(190, 242, 242);
+}
+
+
 
 
 @keyframes moveRight {
